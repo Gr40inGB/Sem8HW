@@ -52,8 +52,6 @@ void RankingArray(int[,] array)
     }
 }
 
-
-
 void Main()
 {
     Console.Clear();

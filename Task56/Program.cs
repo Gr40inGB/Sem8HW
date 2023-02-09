@@ -38,8 +38,6 @@ void PrintArrayRedMin(int[,] inArray, int minRow)
             Console.Write($"{inArray[i, j]}\t ");
         }
         Console.ForegroundColor = ConsoleColor.White;
-
-
         Console.WriteLine();
     }
 }
@@ -71,7 +69,6 @@ int minInArray(int[] array)
     }
     return minIndex;
 }
-
 
 void Main()
 {
