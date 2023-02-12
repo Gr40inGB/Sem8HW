@@ -17,10 +17,8 @@ int[] GetRand2SizeNumber()
     {
         randNumbers[i] = 10 + i;
     }
-
-    //data = new T[n];
+   
     Random randomazer = new Random();
-
     for (int k = 0; k < randNumbers.Length; k++)
     {
         int j = randomazer.Next(k + 1);

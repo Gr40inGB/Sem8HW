@@ -44,12 +44,10 @@ int[,] MultiplicationArrays(int[,] arrA, int[,] arrB)
     {
         for (int j = 0; j < colunmArrB; j++)
         {
-            int multySumm = 0;
             for (int k = 0; k < rowArrB; k++)
             {
-                multySumm = multySumm + arrA[i, k] * arrB[k, j];
+                multyArr[i, j] += arrA[i, k] * arrB[k, j];
             }
-            multyArr[i, j] = multySumm;
         }
     }
     return multyArr;
